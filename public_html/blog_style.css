@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/03/2017, 3:27:57 PM
+    Author     : Neal
+*/
+
+body{
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+.header{   
+    
+    
+    padding-bottom: 8em;
+    padding-top: 7em;
+    background-color: #A14EBF;
+    color: #ECECEC;
+    
+}
+
+.header h1{
+    font-size: 3em;
+    letter-spacing: 0.3em;
+    
+}
+
+.header h2{
+    font-size: 1em;
+    font-weight: 500;
+    color: #979797;
+    letter-spacing: 0.2em;
+    font-family: "Helvetica Light", Helvetica, Arial, sans-serif;
+    
+}
+
+.r9{
+    text-align: left;
+    width: 80%;
+    padding-left: 1em;
+    
+    vertical-align: middle;
+    line-height: 2em;
+}
+
+.r9_logo{
+    background-image: url("images/R9Logo.png");
+    height: 1em;
+    width: 10em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.blog{
+    width:100%;
+    padding-top: 5em;
+}
+
+.blog h2{
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 3em; 
+    color: #4F4E4F;
+}
+
+
+.blog_post{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 10em;
+}
+
+.blog_post_name{
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 1em; 
+    color: #4F4E4F;
+}
+
+.blog_paragraph{
+    text-align: justify;
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    color: #4F4E4F;
+}
+
+.footer{
+    background-color: #6C91BF;
+    color: #ECECEC;
+   
+    padding-bottom: 5em;
+    padding-top: 3em;
+   
+    background-size: 100%;
+}
+
+.footer h2{
+       
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    
+}
+
+.footer h3{
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+}

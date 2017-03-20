@@ -1,0 +1,412 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/03/2017, 9:26:33 AM
+    Author     : Neal
+*/
+
+/*
+later changelog
+font - Gotham
+
+oppurtunity bg color: #6C91BF
+our blog bg color: #A14EBF
+contact bg color: #DF0096
+
+alt col 1: #5FB0B7
+alt col 2: #5BC8AF
+
+
+*/
+
+body{
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+.header{   
+    
+    
+    padding-bottom: 8em;
+    padding-top: 7em;
+    color: #4F4E4F;
+    
+    
+}
+
+.r9{
+    text-align: left;
+    width: 80%;
+    padding-left: 1em;
+    
+    vertical-align: middle;
+    line-height: 2em;
+}
+
+
+
+
+.r9_logo{
+    background-image: url("images/R9Logo.png");
+    height: 1em;
+    width: 10em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.header h1{
+    font-size: 3em;
+    letter-spacing: 0.3em;
+    
+}
+
+.header h2{
+    font-size: 1em;
+    font-weight: 500;
+    color: #979797;
+    letter-spacing: 0.2em;
+    font-family: "Helvetica Light", Helvetica, Arial, sans-serif;
+    
+}
+
+.opportunity_container{
+    width: 100%;
+    background-color: #6C91BF;  
+    
+    background-position-y: 50%;
+   
+}
+
+.opportunity{
+    width: 60%;
+    margin: auto;
+       
+    color: white;
+    
+    padding-top: 3em;
+    padding-bottom: 3em;
+    
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    
+    
+    text-align: justify;
+    
+    
+    
+}
+
+.oppurtunity_header{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+    font-weight: 700;    
+    text-align: center;
+}
+
+.profiles{
+    padding-top: 3em;
+}
+
+.profiles h2{
+    color: #DF0096;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+}
+
+.profile_images_container{
+    
+    width: 100%;
+}
+
+.profile{
+    display: inline-block;
+    width: 20%;
+    padding-top: 2em;
+    padding-bottom: 8em;
+}
+
+.profile h3{
+    color: #DF0096;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    
+}
+
+.profile p{
+    font-weight: 500;
+    color: #979797;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    
+}
+
+.profile_image{
+    
+    width: 50%;
+    padding-bottom: 90%;
+    margin: auto;
+    
+}
+
+
+/*PROFILE IMAGES*/
+.kenyon{
+    background-image: url("images/Kenyon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+    
+    
+}
+.scott{
+    background-image: url("images/Scott.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+.neal{
+    background-image: url("images/Neal.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+.paul{
+    background-image: url("images/Paul.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+}
+
+.r9_information{
+    width: 100%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom: 6em;
+    background-color: #DF0096;
+   /* background-image: url("images/background_cubic_pattern.png");*/
+    color: whitesmoke;
+}
+
+.r9_information h2{
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.r9_post{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    
+    
+    text-align: justify;
+}
+
+.link_to_r9{
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 5em;
+    
+    
+    text-align: right;
+    
+    
+}
+
+.link_to_r9{
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.link_to_r9:visited{
+    color: whitesmoke;
+}
+
+/*BLOG STYLING*/
+.blog{
+    width: 100%;
+    margin: auto;
+    padding-top: 3em;
+    padding-bottom: 6em;
+    
+}
+
+.blog_image{
+    background-image: url("images/artwork.jpg");
+    background-size: 100% 100%;
+    width:80% ;
+    padding-bottom: 50%;
+    margin: auto;
+    
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.blog h2{
+    color: #4F4E4F;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.link_to_blog{
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 5em;
+    
+    
+    text-align: center;
+    color: #4F4E4F;
+
+     width: 100%;
+    
+}
+
+.blog a{
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top: 5em;
+    text-decoration: none;
+    
+    
+    text-align: center;
+    color: #4F4E4F;
+}
+
+.blog a:hover{
+    text-decoration: underline;
+}
+
+.blog a:visited{
+    color: #4F4E4F;
+}
+
+.footnote_blog{
+    text-align: right;
+}
+
+.post_container{
+    width: 60%;
+    margin: auto;
+    
+}
+
+.post{
+    
+    text-align: justify;    
+    color: #4F4E4F;
+        
+        /*#4F4E4F;*/
+        
+        /*#090909;*/
+    
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+    
+}
+
+.post h3{
+      text-align: center;
+      
+}
+
+.footer{
+    background-color: #A14EBF;
+    color: #ECECEC;
+   
+    padding-bottom: 5em;
+    padding-top: 3em;
+   
+    background-size: 100%;
+}
+
+.footer h2{
+       
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    
+}
+
+.footer h3{
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+/*TEXT STYLINGA*/
+.pinkify{
+    
+    color: #DF054B;
+    
+}
+
+
+
+.heavify{
+    font-weight: 900;
+}
+
+
+
+    /* for phone*/ 
+@media screen and (max-width: 500px){
+    
+    .opportunity{
+        width: 90%
+    }
+        
+    .post_container{
+        width: 90%;
+    }
+    
+    .profile{
+        width: 60%;
+    }
+             
+    .r9_post{
+        width: 90%;
+    }
+    
+    .blog_image{
+        background-image: url("images/artwork.jpg");
+        background-size: 100% 100%;
+        width:100% ;
+        padding-bottom: 70%;
+        margin: auto;
+
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    
+}

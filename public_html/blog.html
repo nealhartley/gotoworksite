@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="BlogApp">
+    <head>
+        <title>Go to work on mental health blog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="blog_model.js"></script>
+        
+        <link type="text/css" rel="stylesheet" href="blog_style.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+        <link rel="icon" href="images/favicon.ico" type="image/ico">
+    </head>
+   
+    <body ng-controller="BlogController">
+
+        <div class = "r9"> <a href = "http://www.r9accelerator.co.nz/" target="_blank"><div class = "r9_logo"></div> </a> </div>
+        
+        <div class = "header">
+            <h1>Go to work on mental health</h1>
+            <h2>-Improving employment outcomes for people managing mental health conditions-</h2>
+        </div>
+        
+        <div class = "blog">
+            <h2>Our Blog</h2>
+        
+          <div class = "blog_post" ng-repeat="blog in blogs">
+            <h3 class = "blog_post_name">{{blog.name}}</h3>
+            <p class = "blog_paragraph" ng-repeat="paragraph in blog.content">{{paragraph.paragraph}}</p>
+          </div>
+        
+        </div>
+        
+        <div class = "footer">
+            <h2>Contact Us</h2>
+            <h3>scott@gotoworkonmentalhealth.co.nz</h3>
+            <h3>Plimmer Towers, Lambton Quay, Wellington 6021</h3>
+        </div>
+    
+    </body>
+</html>
+ 
