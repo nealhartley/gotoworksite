@@ -24,6 +24,7 @@ BlogApp.controller('BlogController', function BlogController($scope) {
     },*/
     {
       name: 'Week Two',
+      image: 'images/blogImages/blogtwo.jpg',
       content: 
         [{paragraph : 
                 'Wow, take a breath. That was a long, tiring, and rewarding week for our team. '},
@@ -41,6 +42,7 @@ BlogApp.controller('BlogController', function BlogController($scope) {
     },
     {
        name: 'Week One',
+       image: 'images/blogImages/artwork.jpg',
       content: 
         [{paragraph :
             'The first week of R9 Accelerator 3.0 draws to close. This week was ‘Bootcamp’, a jam-packed week of workshops, sessions and team building exercises, to prime the R9 ‘cohort’ with the tools and methodologies necessary to carry us forward'},

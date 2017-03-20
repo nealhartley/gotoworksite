@@ -96,6 +96,16 @@ body{
     color: #4F4E4F;
 }
 
+.blog_image{
+    background-size: 100% 100%;
+    width:80% ;
+    padding-bottom: 50%;
+    margin: auto;
+    
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
 .footer{
     background-color: #6C91BF;
     color: #ECECEC;
