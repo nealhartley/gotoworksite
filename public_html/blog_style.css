@@ -17,8 +17,7 @@ body{
 
 
 .header{   
-    
-    
+        
     padding-bottom: 8em;
     padding-top: 7em;
     background-color: #A14EBF;
@@ -58,6 +57,17 @@ body{
     background-repeat: no-repeat;
     display: inline-block;
     margin-top: 1em;
+}
+
+.home_button{
+    background-image: url("images/home_icon.png");
+    background-size: 100% 100%;
+    width: 3em;
+    padding-bottom: 3em;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 3em);
+    
 }
 
 .blog{
@@ -129,3 +139,19 @@ body{
     font-weight: 100;
     line-height: 1.5;
 }
+
+
+
+   /* for phone*/ 
+@media screen and (max-width: 500px){
+    
+    .blog_post{
+       width: 90%;
+       margin: auto;
+       padding-bottom: 10em;
+    }
+    
+
+    
+}
+
