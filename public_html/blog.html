@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html ng-app="BlogApp">
+<html ng-app="BlogApp" manifest="filename.appcache">
     <head>
         <title>Go to work on mental health blog</title>
         <meta charset="UTF-8">
@@ -34,7 +34,7 @@ and open the template in the editor.
           <div class = "blog_post" ng-repeat="blog in blogs">
             <h3 class = "blog_post_name">{{blog.name}}</h3>
             <p class = "blog_paragraph" ng-repeat="paragraph in blog.content">{{paragraph.paragraph}}</p>
-            <div class = "blog_image" style="background-image: url({{blog.image}})">
+            <div class = "blog_image" style="background-image: url({{blog.image}})"></div>
           </div>
         
         </div>
