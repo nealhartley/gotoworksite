@@ -62,6 +62,19 @@ body{
     margin-top: 1em;
 }
 
+
+.blog_button{
+    background-image: url("images/blog_icon.png");
+    background-size: 100% 100%;
+    margin-top: 0.5em;
+    width: 2em;
+    padding-bottom: 2em;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 3em);
+    
+}
+
 .header h1{
     font-size: 3em;
     letter-spacing: 0.3em;
