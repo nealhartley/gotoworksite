@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html manifest="website.appcache">
+<html ng-app="BlogApp" manifest="website.appcache">
     <head>
         <title>GO TO WORK ON MENTAL HEALTH</title>
         <meta name="description" content="Improving employment outcomes for people managing mental health conditions."/>
@@ -13,9 +13,12 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="index_style.css">
        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="blog_model.js"></script>
         
     </head>
-    <body>
+    
+    <body ng-controller="BlogController">
         
         <div class = "r9"> <a href = "http://www.r9accelerator.co.nz/" target="_blank"><div class = "r9_logo"></div> </a> </div>
         <a class = "blog_button" href = "blog.html" target="_blank"></a>
@@ -119,45 +122,11 @@ and open the template in the editor.
             <div class = "post_container">
             
                 <div class = "post">
-                   
-                    <p>
-                     The first week of R9 Accelerator 3.0 draws to close. 
-                     This week was ‘Bootcamp’, a jam-packed week of workshops, 
-                     sessions and team building exercises, to prime the R9 ‘cohort’ 
-                     with the tools and methodologies necessary to carry us forward.  
-                    </p>
-                    <p>
-                     We have learnt a lot this week.  
-                     Highlights include a presentation by a ‘Gov Tech’ guru,
-                     who spoke to us live from Austin Texas, 
-                     and inspirational talks on subject matter such as exponential technology, 
-                     lean start up and market validation.   
-                    </p>
-                    <p>
-                     There was also content we already knew well, 
-                     such as Agile, Lean, design thinking, wellness and resilience. 
-                     However, with such a wide range of stakeholders, 
-                     with different levels of skills and experience,  
-                     it is no surprise Creative HQ took such a uniform approach.     
-                    </p>
-                    <p>
-                    What really stood out to me this week is our team.  
-                    Teamwork is the most important contributor to success in this programme, 
-                    and we are getting on ridiculously well!  
-                    We have a quiet confidence about us, 
-                    because with our breadth of knowledge, and range of skills, 
-                    we have the potential to go far in this programme.
-                    </p>
                     
-                    <p class = footnote_blog><i>- 10/03/2017</i></p>
+                        <h3 class = "blog_post_name">{{blogs[0].name}}</h3>
+                        <p class = "blog_paragraph" ng-repeat="paragraph in blogs[0].content">{{paragraph.paragraph}}</p>
+                        <div class = "blog_image" style="background-image: url({{blogs[0].image}})"></div>
                     
-                    
-                    
-                    <div class = "blog_image"></div>
-                    
-                               
-
-
                 </div>
                 
                 <a class = "link_to_blog" href = "blog.html" target="_blank">Read More</a>
