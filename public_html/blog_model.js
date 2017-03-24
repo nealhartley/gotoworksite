@@ -22,6 +22,21 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {paragraph: 'blah'}]        <--putting each paragraph under each "paragraph tag" 
                                        will add spaces between the
     },*/
+        
+        {  
+      
+      name: 'Week Three - Rapid Failure',           
+      content: 
+        [{paragraph : 
+                'What can we say about week three? It’s been a roller coaster. We started with a near disaster with our google drive and for a moment there it seemed like all progress we had made so far might have been lost. Luckily for us we managed to find our missing information and it seemed like we were in for another stellar week.'},  
+        {paragraph : 
+                    'That was until we went into our meeting on Tuesday. It has been stressed to us since day one that failing quickly and rapidly pivoting was a necessary part of this process, but it still hurt none the less when we realised that the path we had begun to look down was a dead end. Scramble mode naturally ensued and we begun reevaluating the problems we had validated with the agency in our earlier meetings. This led us to some possible avenues and some new ideas to investigate.'},   
+        {paragraph : 
+                    'We went into our meeting with an agency member on thursday apprehensive that we would once again have our  ideas devalued and would end up in real panic mode. Luckily for us the meeting went amazing! '}, 
+        {paragraph: 
+                    'So once again we are feeling like we are well on the way towards finding a viable solution. If anything, the lows have made the highs feel even higher and without them we would not have come up with the new innovative ideas that we are starting to look towards.'}]        
+    },
+        
     {
       name: 'Week Two',
       image: 'images/blogImages/blogtwo.jpg',
