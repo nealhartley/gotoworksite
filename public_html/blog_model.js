@@ -22,11 +22,21 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {paragraph: 'blah'}]        <--putting each paragraph under each "paragraph tag" 
                                        will add spaces between the
     },*/
-        
         {  
       
-      name: 'Week Three - Rapid Failure',           
-      content: 
+    name: 'PUG CAM',           
+    image: 'images/blogImages/pugcam.jpg',  
+    content:
+        [{paragraph : 
+                'Many pugs, many, many, many pugs, dun, dun, dun, dun. We have had an interesting development that seems worthy of its own blog post. “What could this be?” You may be saying. It is, of course, the almighty pug cam. Scott has set up a camera in his house in order to allow us a live feed of his two pugs day to day activities. '},  
+        {paragraph : 
+                'Pug cam is a good look at one of the many forms innovation can take, and to be honest it’s nice to be able to take a breather from work and talk to pugs for 5 minutes.'}]        
+        },   
+        {  
+      
+    name: 'Week Three - Rapid Failure',           
+    image: 'images/blogImages/blogthree.jpg',  
+    content:
         [{paragraph : 
                 'What can we say about week three? It’s been a roller coaster. We started with a near disaster with our google drive and for a moment there it seemed like all progress we had made so far might have been lost. Luckily for us we managed to find our missing information and it seemed like we were in for another stellar week.'},  
         {paragraph : 
