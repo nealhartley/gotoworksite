@@ -53,7 +53,7 @@ body{
 
 
 .r9_logo{
-    background-image: url("images/R9Logo.png");
+    background-image: url("../images/R9Logo.png");
     height: 1em;
     width: 10em;
     background-size: 100% 100%;
@@ -64,7 +64,7 @@ body{
 
 
 .blog_button{
-    background-image: url("images/blog_icon.png");
+    background-image: url("../images/blog_icon.png");
     background-size: 100% 100%;
     margin-top: 0.5em;
     width: 2em;
@@ -175,7 +175,7 @@ body{
 
 /*PROFILE IMAGES*/
 .kenyon{
-    background-image: url("images/Kenyon.png");
+    background-image: url("../images/Kenyon.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -184,21 +184,21 @@ body{
     
 }
 .scott{
-    background-image: url("images/Scott.png");
+    background-image: url("../images/Scott.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
     
 }
 .neal{
-    background-image: url("images/Neal.png");
+    background-image: url("../images/Neal.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
     
 }
 .paul{
-    background-image: url("images/Paul.png");
+    background-image: url("../images/Paul.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -271,7 +271,7 @@ a:hover{
 }
 
 .blog_image{
-    background-image: url("images/artwork.jpg");
+    background-image: url("../images/artwork.jpg");
     background-size: 100% 100%;
     width:80% ;
     padding-bottom: 50%;
@@ -412,7 +412,7 @@ a:hover{
     }
     
     .blog_image{
-        background-image: url("images/artwork.jpg");
+        background-image: url("../images/artwork.jpg");
         background-size: 100% 100%;
         width:100% ;
         padding-bottom: 70%;

@@ -25,7 +25,7 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {  
       
     name: 'PUG CAM',           
-    image: 'images/blogImages/pugcam.jpg',  
+    image: '../images/blogImages/pugcam.jpg',  
     content:
         [{paragraph : 
                 'Many pugs, many, many, many pugs, dun, dun, dun, dun. We have had an interesting development that seems worthy of its own blog post. “What could this be?” You may be saying. It is, of course, the almighty pug cam. Scott has set up a camera in his house in order to allow us a live feed of his two pugs day to day activities. '},  
@@ -35,7 +35,7 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {  
       
     name: 'Week Three - Rapid Failure',           
-    image: 'images/blogImages/blogthree.jpg',  
+    image: '../images/blogImages/blogthree.jpg',  
     content:
         [{paragraph : 
                 'What can we say about week three? It’s been a roller coaster. We started with a near disaster with our google drive and for a moment there it seemed like all progress we had made so far might have been lost. Luckily for us we managed to find our missing information and it seemed like we were in for another stellar week.'},  
@@ -49,7 +49,7 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         
     {
       name: 'Week Two',
-      image: 'images/blogImages/blogtwo.jpg',
+      image: '../images/blogImages/blogtwo.jpg',
       content: 
         [{paragraph : 
                 'Wow, take a breath. That was a long, tiring, and rewarding week for our team. '},
@@ -67,7 +67,7 @@ BlogApp.controller('BlogController', function BlogController($scope) {
     },
     {
        name: 'Week One',
-       image: 'images/blogImages/artwork.jpg',
+       image: '../images/blogImages/artwork.jpg',
       content: 
         [{paragraph :
             'The first week of R9 Accelerator 3.0 draws to close. This week was ‘Bootcamp’, a jam-packed week of workshops, sessions and team building exercises, to prime the R9 ‘cohort’ with the tools and methodologies necessary to carry us forward'},
@@ -86,14 +86,14 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {          
           title: 'survey one',
           description: 'this survey is all about people going hard and chugging back brewskies like my main man Scott',
-          image: 'images/surveyImages/pugbunny.jpg',
+          image: '../images/surveyImages/pugbunny.jpg',
           link: 'https://www.facebook.com/scott.hexadecimal?fref=ts&ref=br_tf'
       },
       
         {          
           title: 'survey two',
           description: 'this survey is all about funky psychedelic music and Kenyons impressive smile',
-          image: 'images/surveyImages/pugbunny.jpg',
+          image: '../images/surveyImages/pugbunny.jpg',
           link: 'https://www.facebook.com/kenyon.shankie?fref=ts'
       }
       
