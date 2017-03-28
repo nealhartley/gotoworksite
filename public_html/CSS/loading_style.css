@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/03/2017, 12:45:33 PM
+    Author     : Neal
+*/
+.load_box{
+    width: 80%;
+    background-image: url("../images/handsdesign.png");
+    background-size: 100% 100%;
+    margin: auto;
+    padding-bottom: 30%;
+    text-align: center;
+}
+
+.loading_text_container{
+    position: relative;
+    width: 100%;
+    top: 8em;
+    
+       
+    letter-spacing: 0.3em;
+}
