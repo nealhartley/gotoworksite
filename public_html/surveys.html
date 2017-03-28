@@ -31,13 +31,15 @@ and open the template in the editor.
         
         <div class = "survey_container" ng-repeat="survey in surveys">
             
+            <div class = "survey_image" style="background-image: url({{survey.image}})"></div>
+            
             <div class = "survey_body">
                 <h2>{{survey.title}}</h2>
                 <p class = "survey_text">{{survey.description}}</p>
                 <a class = "survey_link" href = "{{survey.link}}" target="_blank">Take Survey</a>
             </div>
             
-            <div class = "survey_image" style="background-image: url({{survey.image}})"></div>
+            
       
         </div>
         
