@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/03/2017, 12:08:37 PM
+    Author     : Neal
+*/
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #4F4E4F;
+}
+
+.logo{
+    background-image: url("images/handsdesign.png");
+    background-size: 100% 100%;
+   
+   float: left;
+    width: 7em;
+    padding-bottom: 3em;
+    margin-left: 1em;
+    z-index: 5;
+    display: inline-block;
+    
+}
+
+.header_text{
+    width: 28em;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    
+    z-index: 1;
+    padding-top: 0.2em;
+    letter-spacing: 0.3em;
+}
+
+.home_button{
+    background-image: url("images/home_icon.png");
+    background-size: 100% 100%;
+    width: 3em;
+    display: inline-block;
+    padding-bottom: 3em;
+    float: right;
+    top: 0;
+    
+    
+}
+
+.header{
+    margin-bottom: 6em;
+    
+    padding-bottom: 0.3em;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+
+.survey_container{
+    width: 60%;
+    vertical-align: top;
+    margin: auto;
+    margin-bottom: 10em;
+    background-color: #f9f9f9;
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.survey_body{
+    width: 49%;
+    display: inline-block;
+    top: 0;
+    vertical-align: top;
+    padding-top: 2em;
+}
+
+.survey_body h2{
+    padding-bottom: 2em;
+}
+
+.survey_image{
+    width: 49%;
+    padding-bottom: 49%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.survey_body a{
+    text-decoration: none;
+}
+
+.survey_body a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #6C91BF;
+    color: #ECECEC;
+   
+    padding-bottom: 3em;
+    padding-top: 3em;
+   
+    background-size: 100%;
+}
+
+.footer h2{
+       
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+}
+
+.footer h3{
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.5;
+}

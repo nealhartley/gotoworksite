@@ -80,5 +80,23 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         ]
     }
   ];
+  
+  $scope.surveys = [
+      
+        {          
+          title: 'survey one',
+          description: 'this survey is all about people going hard and chugging back brewskies like my main man Scott',
+          image: 'images/surveyImages/pugbunny.jpg',
+          link: 'https://www.facebook.com/scott.hexadecimal?fref=ts&ref=br_tf'
+      },
+      
+        {          
+          title: 'survey two',
+          description: 'this survey is all about funky psychedelic music and Kenyons impressive smile',
+          image: 'images/surveyImages/pugbunny.jpg',
+          link: 'https://www.facebook.com/kenyon.shankie?fref=ts'
+      }
+      
+    ];
 });
 

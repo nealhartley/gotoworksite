@@ -34,6 +34,8 @@ and open the template in the editor.
           <div class = "blog_post" ng-repeat="blog in blogs">
             <h3 class = "blog_post_name">{{blog.name}}</h3>
             <p class = "blog_paragraph" ng-repeat="paragraph in blog.content">{{paragraph.paragraph}}</p>
+            
+            
             <div class = "blog_image" style="background-image: url({{blog.image}})"></div>
           </div>
         
