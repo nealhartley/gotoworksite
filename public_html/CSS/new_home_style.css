@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/03/2017, 12:14:27 PM
+    Author     : Neal
+*/
+
+body{
+    margin: 0;
+   
+    text-align: center;
+    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.3em;
+    color: #4F4E4F;
+}
+
+.header{
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+
+.hands_container{
+    width: 80%;
+    margin: auto;
+}
+
+.link_container{
+    width: 24%;
+    
+    display: inline-block;
+}
+
+.link_container:hover{
+   
+    
+}
+
+
+.hand_image{
+    
+    padding-bottom: 150%;
+    background-size: 100% 100%;
+    
+    position: relative;
+    left: -20%;
+    width: 140%;
+    
+}
+
+/*these two hovered classes are for when people hover over the links*/
+.hand_hovered{
+    width: 160%;
+    
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+.text_hovered{    
+    font-weight: 300;
+}
+
+.first_hand{background-image: url("../images/handsingle.png");}
+.second_hand{background-image: url("../images/handsingle.png");}
+.third_hand{background-image: url("../images/handsingle.png");}
+.fourth_hand{background-image: url("../images/handsingle.png");}

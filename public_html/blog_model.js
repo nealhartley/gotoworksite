@@ -10,9 +10,10 @@
 // Define the `phonecatApp` module
 var BlogApp = angular.module('BlogApp', []);
 
-// Define the `PhoneListController` controller on the `phonecatApp` module
+// Define the `Blogcontroller` controller on the `BlogApp` module
 BlogApp.controller('BlogController', function BlogController($scope) {
-  $scope.blogs = [
+  //blog postings 
+    $scope.blogs = [
       
       /*{  ADD this code snippet above rest to add a new blog post (remove the arrowed comments next to each item)
       
@@ -22,7 +23,23 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {paragraph: 'blah'}]        <--putting each paragraph under each "paragraph tag" 
                                        will add spaces between the
     },*/
-        {  
+        
+    { 
+      
+      name: 'Week Four',    
+      image:'../images/blogImages/weekfour.png',
+      content: 
+        [{paragraph : 
+                    'We have had another great week! We started off with a meeting between the whole team to make sure we were all heading in the same direction, It also seemed like we had begun to relax a little on the routine of having daily meetings, and these seemed like things that needed addressing. The meeting went really well and really helped us right the ship, it has been smooth sailing since.'},  
+        {paragraph: 
+                    'A big highlight of the week was the solutions validation meeting we had with the ministry. It seems we have managed to capture the elements of the problem the ministry was most focused on, and they seem excited about the ideas we pitched to them. Seeing this excitement has motivated us, and we are ready to get cracking with our next step.'},
+        {paragraph : 
+                    'So what is our next step? We want to go and spend some serious time with the people we are going to be making something for. This would all be for naught if we did not deliver something that would really help people.'},
+        {paragraph : 
+                    'Well that is all from the week just been. We are now going to go do some interviews and we will let you know how that is going in our next blog post.'}]       
+    },
+        
+        {
       
     name: 'PUG CAM',           
     image: '../images/blogImages/pugcam.jpg',  
@@ -81,6 +98,7 @@ BlogApp.controller('BlogController', function BlogController($scope) {
     }
   ];
   
+  //the list for surveys on the sutrvey page
   $scope.surveys = [
       
         {          

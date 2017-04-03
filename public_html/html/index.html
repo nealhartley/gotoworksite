@@ -21,6 +21,7 @@ and open the template in the editor.
     
     <body ng-controller="BlogController">
         
+        <!--the top bar section, contains the r9 link the home link and the title bar-->
         <div class = "r9"> <a href = "http://www.r9accelerator.co.nz/" target="_blank"><div class = "r9_logo"></div> </a> </div>
         <a class = "blog_button" href = "blog.html" target="_blank"></a>
         
@@ -29,6 +30,7 @@ and open the template in the editor.
             <h2>-Improving employment outcomes for people managing mental health conditions-</h2>
         </div>
         
+        <!--This is the opportunity, describes the r9 opportunity-->
         <div class = "opportunity_container">
             <div class = "opportunity">            
                 <h2 class = "oppurtunity_header">Our Opportunity</h2>
@@ -50,6 +52,8 @@ and open the template in the editor.
 
             </div>
         </div>
+
+        <!--profiles section, contains the descriptions of each team member-->
         <div class = "profiles">
             <h2>Our Team</h2>
             
@@ -82,13 +86,11 @@ and open the template in the editor.
                     <p>THE VISIONARY</p>
                     
                 </div>
-                
             </div>
-            
-            
         </div>
        
-       <div class = "r9_information">
+        <!--section containing details about the r9 accelerator and its purpose-->
+        <div class = "r9_information">
            
            <h2>R9 Accelerator</h2>
            
@@ -114,14 +116,15 @@ and open the template in the editor.
            
            <a class = "link_to_r9" href = "http://www.r9accelerator.co.nz/" target="_blank">Learn More</a>
            
-       </div>
-        
+        </div>
+       
+       <!--blog posts below, post is controlled by the blogmodel.js model via angular-->
         <div class = "blog">
             
             <h2>Our Blog</h2>
             
             <div class = "post_container">
-            
+                <!--post is the first in the blogmodel.js blogs variable-->
                 <div class = "post">
                     
                         <h3 class = "blog_post_name">{{blogs[0].name}}</h3>
@@ -135,6 +138,8 @@ and open the template in the editor.
             </div>
         </div>
         
+       
+       <!--footer bar, telling people to contact us-->
         <div class = "footer">
             <h2>Contact Us</h2>
             <h3>scott@gotoworkonmentalhealth.co.nz</h3>
