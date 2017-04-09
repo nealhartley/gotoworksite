@@ -15,6 +15,7 @@ and open the template in the editor.
         <link rel="shortcut icon" href="../images/favicon.ico" type="image/ico">
         <link rel="icon" href="../images/favicon.ico" type="image/ico">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-sanitize.js"></script>
         <script src="../blog_model.js"></script>
         
     </head>
@@ -128,7 +129,7 @@ and open the template in the editor.
                 <div class = "post">
                     
                         <h3 class = "blog_post_name">{{blogs[0].name}}</h3>
-                        <p class = "blog_paragraph" ng-repeat="paragraph in blogs[0].content">{{paragraph.paragraph}}</p>
+                        <p class = "blog_paragraph" ng-repeat="paragraph in blogs[0].content" ng-bind-html="paragraph.paragraph"></p>
                         <div class = "blog_image" style="background-image: url({{blogs[0].image}})"></div>
                     
                 </div>

@@ -23,6 +23,32 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {paragraph: 'blah'}]        <--putting each paragraph under each "paragraph tag" 
                                        will add spaces between the
     },*/
+    
+    {  
+      
+      name: 'Week Five',   
+      image: '../images/blogImages/weekfive.jpg',
+      content: 
+        [{paragraph : 
+                '“It has been really good week” -Scott Reeder 2017. We have been anticipating a drop off in our enthusiasm and progress but alas it has not come. Week in and week out we seem to be scaling our opportunity and progressing towards our goals.'},  
+        {paragraph: 
+                    'So what were some highlights from our week? Probably the thing that stands out most would be our meeting with the wonderful ladies from the Resiliency Unleashed training & consultancy firm. These two ladies are pioneers in this space and we were lucky enough to get to hear about the work they do and how they are helping to make a positive impact in this area. We also got the chance to talk to them about the idea we are currently working on and it was amazing to see the positive response we got from them. Amy and Rob, if you are reading this, thanks heaps for meeting with us.'},
+        {paragraph: 
+                    'One of the other great things we managed to do this week was come up with our teams core values. So we will go ahead and list them for you now:'},
+        {paragraph: 
+                    'Exploration - For us this means not being happy with the status quo. We want to always be excited about the opportunity for change and make improvement. We want to actively seek chances to learn and better ourselves.'},
+        {paragraph: 
+                    'Community - Fostering a dynamic environment where we can all prosper together. Our team should feel like a family.'},
+        {paragraph: 
+                    'Altruism - In the end this is all for the sole reason of being able to help and improve outcomes for people who are in need of a helping hand.'},
+        {paragraph: 
+                    'Optimism - Remaining optimistic and forward focused even when things get tough.'},
+        {paragraph: 
+                    'Empowerment - We want to empower people to make their own decisions, we want to give people the tools they need to take their journey into their own hands, and to thrive.'},
+        {paragraph: 
+                    'So this is a brief overview of our week that has been. We hope you have enjoyed reading, and hopefully we can keep this positive momentum going.'}]        
+    },
+        
         
     { 
       
