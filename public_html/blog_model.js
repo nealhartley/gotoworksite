@@ -24,6 +24,31 @@ BlogApp.controller('BlogController', function BlogController($scope) {
                                        will add spaces between the
     },*/
     
+        {  
+      
+      name: 'Week Six',   
+      image: '../images/blogImages/weekfive.jpg',
+      content: 
+        [{paragraph : 
+                    'One of the exciting parts of the past week has been that we have had a name change. Do you want to hear the new name? Well, we are not going to tell you that now, you will have to read to the end to find out (trust us it is worth it).'},  
+        {paragraph: 
+                    'So the main focus for the past week has been trying to get in front of the clients themselves. We have been making progress in this regard, but it has been of the slow and steady kind. We have what appears to be some solid leads in this regard and we are getting excited to get some deep insights into the problems we are looking to help fix.'},
+        {paragraph: 
+                    'We are also beginning to look towards the next phase of this process and have begun laying the groundworks for our design and development process. With this foundation laid we will be able to get straight down to creating the solution we come up with after we have talked to the clients.'},
+        {paragraph: 
+                    'So, it is name time, are you ready? '},
+        {paragraph: 
+                    '3'},
+        {paragraph: 
+                    '2'},
+        {paragraph: 
+                    '1'},
+        {paragraph: 
+                    'Pathstarters'},
+        {paragraph: 
+                    'So now that we have blown your minds it is about time that we wish you all the best for the coming week. So without further adieu see you all next week.'}]        
+    },
+    
     {  
       
       name: 'Week Five',   
