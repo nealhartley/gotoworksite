@@ -23,6 +23,22 @@ BlogApp.controller('BlogController', function BlogController($scope) {
         {paragraph: 'blah'}]        <--putting each paragraph under each "paragraph tag" 
                                        will add spaces between the
     },*/
+        
+        {  
+      
+      name: '28/04/2017',    
+      image: '../images/blogImages/blogpostsix.jpg',
+      content: 
+        [{paragraph : 'It has been a really busy couple of weeks but we can see light at the end of the tunnel.'},  
+        {paragraph: 'One of our recent highlights was meeting Doctor Ian Soosay. Ian is the Ministry of Health, Deputy Director of Mental Health and has joined our advisory board.  As you can imagine, Ian has extensive knowledge and experience in the mental health area valuable to our project helping to inform our decisions.'},
+        {paragraph: 'We made the most of a recent team outing to Auckland. In the morning, we met with the Mental Health Foundation and Changing Minds and spoke to mental health advocates with lived experience.  In the afternoon, we met Doctor Rawiri from the National Hauora Coalition who helped validate some of our assumptions around our concept and the interaction between clients and health professionals.'},
+        {paragraph: 'It is vitally important for us to understand client’s problems and barriers to work in order to design an appropriate solution.  We ran a workshop with HCID Case Managers in Upper Hutt, which helped to inform our questions for clients and validate potential gaps our concept can help with.'},
+        {paragraph: 'This week we began to interview clients at Work and Income, and at Treehouse, kindly supported by Scotts Investment Approach colleagues.  At this stage, we have only completed 7 interviews with clients but we have begun to draw the outlines of a picture of their problems.  Next week we continue to interview at Service Centre’s in both Wellington and Upper Hutt. '},
+        {paragraph: 'Were not going to lie to you, this has been a challenging process. We now understand the statement about R9 being like being inside a pressure cooker. We guess it is all about how committed you are to the process.  We are all learning a lot about mental health, the ministry and the highs and lows across government.'}
+            ]  
+    
+        },
+        
     
         {  
       
